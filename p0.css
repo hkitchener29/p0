@@ -1,0 +1,106 @@
+
+table, th, td{
+    padding: 12px;
+    border: 2px solid black;
+}
+table{
+    border-collapse: collapse;
+}
+
+.good_morning{
+    background-color: rgb(245, 227, 190);
+    padding: 10px;
+}
+
+#table{
+    background-color:lightblue;
+    color: navy;
+
+}
+
+h1{
+    color:navy;
+    text-align: center;
+}
+
+.time{
+    font-weight: bold;
+    
+}
+
+main > p{
+    font-style: italic;
+}
+
+a{
+    color: purple;
+}
+
+a:hover{
+    color: red;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 600px){
+    body{
+        font-size-adjust: .75;
+    }
+}
+
+
+.navbar ul{
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.navbar ul li a {
+  display: block;
+  color: rgb(89, 89, 89);
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  background-color: #111111;
+  color: white
+  ;
+}
+
+.navbar ul li a.active {
+  background-color: lightblue;
+  color: navy;
+}
+
+#footer{
+    color: grey;
+    font-size: 9px;
+}
+
+#recap{
+    background-color: lightblue;
+    padding: 10px;
+}   
+
+#plan{
+    background-color: lightblue;
+    padding: 5px;
+}
+
+#act{
+    font-size: 22px;
+}
+
+.sized{
+    font-size: larger;
+}
+
+.footnote{
+    font-size: small;
+    color: grey
+}
+
+
